@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% Script Module for Systematically Removing Top Air Space and Bottom Ground Space
 %%%% from SnowMicroPenetrometer Raw Force Profiles 
-%%%% using statistical approach based on Satyawali et al. (2017) paper:
+%%%% using statistical approach based on Satyawali et al. (2009) paper:
 %%%% "Preliminary characterization of Alpine snow using SnowMicroPen"
 
 function x = RemoveTopBottom_SMP(zF,force)
